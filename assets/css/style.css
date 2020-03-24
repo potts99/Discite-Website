@@ -1155,13 +1155,14 @@ h1, h2, h3, h4, h5, h6 {
   border: 0px;
   padding: 6px;
   color: #413e66;
-  font-weight: 300;
+  font-weight: bold;
 }
 
 #pricing .card h3 {
   font-size: 64px;
   margin-bottom: 0px;
   color: #535074;
+  text-align: center;
 }
 
 #pricing .card h3 .currency {
@@ -1538,3 +1539,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-50%);    
 }
 
+.list-tick li {
+  font-size: medium;
+  font-weight: bold;
+}
