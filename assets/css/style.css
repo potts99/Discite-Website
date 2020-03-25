@@ -1059,41 +1059,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 2px;
 }
 
-/* Clients Section
---------------------------------*/
-#clients {
-  padding: 60px 0;
-}
-
-#clients img {
-  max-width: 80%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 0;
-}
-
-#clients img:hover {
-  opacity: 1;
-}
-
-#clients .owl-nav, #clients .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
-
-#clients .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-}
-
-#clients .owl-dot.active {
-  background-color: #1bb1dc;
-}
-
 /* Pricing Section
 --------------------------------*/
 #pricing {
@@ -1398,85 +1363,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
   background: #0a98c0;
-}
-
-#footer .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#footer .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-#footer .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-#footer .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-#footer .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-#footer .php-email-form input, #footer .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  border: 1px solid #dce1ec;
-  font-size: 14px;
-}
-
-#footer .php-email-form input::focus, #footer .php-email-form textarea::focus {
-  background-color: #1bb1dc;
-}
-
-#footer .php-email-form input {
-  padding: 20px 15px;
-}
-
-#footer .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-#footer .php-email-form button[type="submit"] {
-  background: #1bb1dc;
-  border: 0;
-  border-radius: 3px;
-  padding: 8px 30px;
-  color: #fff;
-  transition: 0.3s;
-}
-
-#footer .php-email-form button[type="submit"]:hover {
-  background: #0a98c0;
-  cursor: pointer;
 }
 
 @-webkit-keyframes animate-loading {
