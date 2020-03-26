@@ -32,7 +32,7 @@
   
     function loadImage (el, fn) {
       var img = new Image()
-        , src = el.getElementsByClassName('lazy');
+        , src = el.getAttribute('data-src');
       img.onload = function() {
         if (!! el.parent)
           el.parent.replaceChild(img, el)
