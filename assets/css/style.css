@@ -1436,3 +1436,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: medium;
   font-weight: bold;
 }
+
+@media only screen and (min-width: 300px) and (max_width: 450px) {
+  .line-1 {
+    width: 100%;
+    overflow: hidden;
+  }
+}
